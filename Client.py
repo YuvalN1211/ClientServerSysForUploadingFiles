@@ -1,4 +1,5 @@
 import socket
+import os
 
 def get_socket_info():
     your_device = str(input("Are you trying to comunicate with a server that is on your device (y/n)"))
@@ -16,3 +17,22 @@ def get_socket_info():
 client_socket = socket.socket()
 info = get_socket_info()
 client_socket.connect(info)
+
+
+    
+
+def send_file(socket, path):
+
+    file_size = os.stat(path).st_size
+    encoded_file_size = str(file_size).encode("utf-8")
+    print(f"{file_size} - {encoded_file_size}")
+    socket.send(encoded_file_size)
+
+    f = open(path, "rb")
+    data = f.read(1024)
+    while data:
+        socket.send(data)
+        data = f.read(1024)
+
+file_path = str(input("Enter file path to a file you want to upload: "))
+send_file(client_socket, file_path)
