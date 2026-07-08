@@ -18,34 +18,35 @@ client_socket = socket.socket()
 info = get_socket_info()
 client_socket.connect(info)
 
-
-def send_file_to_server(socket, path):
-
+def send_file_size(path):
     file_size = os.stat(path).st_size
     encoded_file_size = str(file_size).encode()
     print(f"{file_size} - {encoded_file_size}")
-    socket.send(encoded_file_size)
+    client_socket.send(encoded_file_size)
+
+def send_file_to_server(path):
+    send_file_size(path)
 
     f = open(path, "rb")
     data = f.read(1024)
     while data:
-        socket.send(data)
+        client_socket.send(data)
         data = f.read(1024)
 
-def download_file_from_server(client_socket, file_name):
+def download_file_from_server(file_name):
     pass
 
-def user_function(client_socket):
+def user_function():
     q = str(input("Do you want to upload or download a file? (u/d)"))
     if q == "u":
         client_socket.send(q.encode())
         file_path = str(input("Enter file path to a file you want to upload: "))
-        send_file_to_server(client_socket, file_path)
+        send_file_to_server(file_path)
     elif q == "d":
         client_socket.send(q.encode())
         file_name = str(input("Enter the name of the file you want to download"))
-        download_file_from_server(client_socket, file_name)
+        download_file_from_server(file_name)
     else:
         print("Expected (u/d)")
 
-user_function(client_socket)
+user_function()

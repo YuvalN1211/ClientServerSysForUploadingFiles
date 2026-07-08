@@ -23,10 +23,7 @@ print("Waiting for connections")
 connected_socket, address = server_socket.accept()
 print("Connection from: " + str(address))
 
-
-
-
-def recive_data(socket, path):
+def recive_data(path):
     file = open(path, "wb")
     file_size = int(connected_socket.recv(4).decode())
     
@@ -39,8 +36,12 @@ def recive_data(socket, path):
         file.write(chunk)
         i -= 1
 
+def send_data():
+    pass
+
 q = connected_socket.recv(1).decode()
 if q == "u":
-    recive_data(connected_socket, r"C:\Users\yuval\OneDrive\אקדמיית_המתכנתים\רשתות_תקשורת_ופרוטוקולים\ClientServerSysForUploadingFiles\ServerStorage.txt")
+    recive_data(r"C:\Users\yuval\OneDrive\אקדמיית_המתכנתים\רשתות_תקשורת_ופרוטוקולים\ClientServerSysForUploadingFiles\ServerStorage.txt")
 elif q == "d":
     print("download chosen")
+    send_data()
