@@ -1,282 +1,209 @@
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdfffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdfffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdfffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdfffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdfffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdfffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdfffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdfffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdfffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
-ffffffffffff
-dfdfdfdfdfdf
+YuvvHello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
+Hello, I am Dave.0
+Hello, I am Dave.1
+Hello, I am Dave.2
+Hello, I am Dave. YEs YEs3
+Hello, I am Dave.4
+Hello, I am Dave.5
+Hello, I am Dave.6
+Hello, I am Dave. YEs YEs7
+Hello, I am Dave.8
+Hello, I am Dave.9
+Hello, I am Dave.10
