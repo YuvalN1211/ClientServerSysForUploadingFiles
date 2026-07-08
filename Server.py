@@ -92,7 +92,7 @@ def main():
             recive_data(path)
         elif q == "d":
             send_data(path)
-        elif q == "bye":
+        elif q == "e":
             connected_socket.close()
             server_socket.close()
             break

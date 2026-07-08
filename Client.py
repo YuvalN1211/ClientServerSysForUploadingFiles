@@ -67,7 +67,7 @@ def send_file_name(string):
     return file_name
 
 def main():
-    q = str(input("Do you want to upload or download a file? (u/d/bye): "))
+    q = str(input("Do you want to exit, upload or download a file? (e/u/d): "))
     if q == "u":
         client_socket.send(q.encode())
         send_file_name("to upload")
@@ -84,12 +84,12 @@ def main():
         path = f"{file_path}\{file_name}"
         download_file_from_server(path)
         main()
-    elif q == "bye":
+    elif q == "e":
         client_socket.send(q.encode())
         sys.exit()
 
     else:
-        print("Expected (u/d/bye)")
+        print("Expected (e/u/d)")
         main()
 
 
