@@ -41,7 +41,9 @@ def send_data():
 
 q = connected_socket.recv(1).decode()
 if q == "u":
-    recive_data(r"C:\Users\yuval\OneDrive\אקדמיית_המתכנתים\רשתות_תקשורת_ופרוטוקולים\ClientServerSysForUploadingFiles\ServerStorage.txt")
+    # recive_data(r"C:\Users\yuval\OneDrive\אקדמיית_המתכנתים\רשתות_תקשורת_ופרוטוקולים\ClientServerSysForUploadingFiles\ServerStorage.txt")
+    file_name = connected_socket.recv(1)
+    recive_data(rf"C:\Users\yuval\OneDrive\אקדמיית_המתכנתים\רשתות_תקשורת_ופרוטוקולים\ClientServerSysForUploadingFiles\ClientData\{file_name}")
 elif q == "d":
     print("download chosen")
     send_data()
