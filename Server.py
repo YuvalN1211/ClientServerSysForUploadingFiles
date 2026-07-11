@@ -36,7 +36,7 @@ print("Waiting for connections")
 connected_socket, address = server_socket.accept()
 print("Connection from: " + str(address))
 
-# upload function
+# upload function 2
 def recive_data(path):
     file = open(path, "wb")
     recive_bytes = connected_socket.recv(4)
@@ -51,14 +51,21 @@ def recive_data(path):
         i -= 1
     print(f"finished writing the file that was sent from {address}")
 
-# download function 2
+# upload function 1
+def get_file_name_upload():
+    bytes = int(connected_socket.recv(4).decode())
+    file_name = connected_socket.recv(bytes).decode()
+    return file_name
+
+
+# download function 3
 def send_file_size(path):
     file_size = os.stat(path).st_size
     byte_data = file_size.to_bytes(4, byteorder='big')
     connected_socket.send(byte_data)
     print(f"file size sent to {address}")
 
-# download function 1
+# download function 2
 def send_data(path):
     send_file_size(path)
 
@@ -70,8 +77,8 @@ def send_data(path):
         data = f.read(1024)
     print(f"downloaded to {address}")
 
-# main help function
-def get_file_name():
+# download function 1
+def get_file_name_download():
     in_storage_message = "file is in server storage"
     not_in_storage_message = "file is not in server storage, enter a valid file name"
 
@@ -99,17 +106,22 @@ def main():
     while True:
         print("\n")
         q = connected_socket.recv(1).decode()
-        file_name = get_file_name()
-        path = f"{base_dir}\{file_name}"
-
+        
         if q == "u":
+            file_name = get_file_name_upload()
+            path = f"{base_dir}\{file_name}"
+
             print(f"path of file to upload {path}")
             recive_data(path)
         elif q == "d":
+            file_name = get_file_name_download()
+            path = f"{base_dir}\{file_name}"
+
             send_data(path)
         elif q == "e":
             connected_socket.close()
             server_socket.close()
+            print("Goodbye")
             sys.exit()
 
 main()
