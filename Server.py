@@ -29,7 +29,7 @@ def get_socket_info():
 # make socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 info = get_socket_info()
-print(info)
+print(f"info: {info}")
 server_socket.bind(info)
 server_socket.listen(1)
 print("Waiting for connections")
@@ -49,13 +49,14 @@ def recive_data(path):
         chunk = connected_socket.recv(1024)
         file.write(chunk)
         i -= 1
-    print("finished writing")
+    print(f"finished writing the file that was sent from {address}")
 
 # download function 2
 def send_file_size(path):
     file_size = os.stat(path).st_size
     byte_data = file_size.to_bytes(4, byteorder='big')
     connected_socket.send(byte_data)
+    print(f"file size sent to {address}")
 
 # download function 1
 def send_data(path):
@@ -67,17 +68,36 @@ def send_data(path):
     while data:
         connected_socket.send(data)
         data = f.read(1024)
+    print(f"downloaded to {address}")
 
 # main help function
 def get_file_name():
-    bytes = int(connected_socket.recv(1).decode())
-    file_name = connected_socket.recv(bytes).decode()
+    in_storage_message = "file is in server storage"
+    not_in_storage_message = "file is not in server storage, enter a valid file name"
+
+    while True:
+        bytes = int(connected_socket.recv(4).decode())
+        file_name = connected_socket.recv(bytes).decode()
+        if file_name in os.listdir(base_dir):
+            print(in_storage_message)
+            message_len = str(len(in_storage_message))
+            connected_socket.send(message_len.encode())
+            connected_socket.send(in_storage_message.encode())
+            break
+        else:
+            print(not_in_storage_message)
+            message_len = str(len(not_in_storage_message)).zfill(4)
+            print(f"message length: {message_len}")
+            connected_socket.send(message_len.encode())
+            connected_socket.send(not_in_storage_message.encode())
+        
     return file_name
 
 
 def main():
     global base_dir
     while True:
+        print("\n")
         q = connected_socket.recv(1).decode()
         file_name = get_file_name()
         path = f"{base_dir}\{file_name}"

@@ -30,6 +30,7 @@ def send_file_size(path):
     file_size = os.stat(path).st_size
     byte_data = file_size.to_bytes(4, byteorder='big')
     client_socket.send(byte_data)
+    print("file size sent to the server")
 
 # upload function 1
 def send_file_to_server(path):
@@ -40,6 +41,7 @@ def send_file_to_server(path):
     while data:
         client_socket.send(data)
         data = f.read(1024)
+    print("file sent to the server")
 
 
 # download function
@@ -55,20 +57,27 @@ def download_file_from_server(path):
         chunk = client_socket.recv(1024)
         file.write(chunk)
         i -= 1
-    print("finished writing")
+    print("finished writing from the server")
 
 
 # function for sending the name for the server, upload and download
 def send_file_name(string):
-    file_name = str(input(f"Enter the file name {string} (including type, like: my_file.txt): "))
-    length = str(len(file_name))
-    print(f"length of name: {length}")
-    client_socket.send(length.encode())
-    client_socket.send(file_name.encode())
+    while True:
+        file_name = str(input(f"Enter the file name {string} (including type, like: my_file.txt): "))
+        length = str(len(file_name)).zfill(4)
+        print(f"length of name in bytes: {length}")
+        client_socket.send(length.encode())
+        client_socket.send(file_name.encode())
+        returning_message_len = int(client_socket.recv(4).decode())
+        returning_message = client_socket.recv(returning_message_len).decode()
+        print(returning_message)
+        if returning_message == "file is in server storage":
+            break
+
     return file_name
 
 def main():
-    q = str(input("Do you want to exit, upload or download a file? (e/u/d): "))
+    q = str(input("\nDo you want to exit, upload or download a file? (e/u/d): ")).strip()
     if q == "u":
         client_socket.send(q.encode())
         send_file_name("to upload")
