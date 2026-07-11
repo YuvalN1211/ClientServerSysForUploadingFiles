@@ -79,7 +79,7 @@ def send_file_name_download():
         returning_message_len = int(client_socket.recv(4).decode())
         returning_message = client_socket.recv(returning_message_len).decode()
         print(returning_message)
-        if returning_message == "file is in server storage":
+        if returning_message == "file found, it is in server storage":
             break
 
     return file_name

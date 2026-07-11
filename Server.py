@@ -79,8 +79,8 @@ def send_data(path):
 
 # download function 1
 def get_file_name_download():
-    in_storage_message = "file is in server storage"
-    not_in_storage_message = "file is not in server storage, enter a valid file name"
+    in_storage_message = "file found, it is in server storage"
+    not_in_storage_message = "file not found, it is not in server storage, enter a valid file name"
 
     while True:
         bytes = int(connected_socket.recv(4).decode())
