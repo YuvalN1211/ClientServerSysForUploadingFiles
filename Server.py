@@ -32,7 +32,7 @@ def get_socket_info():
     return info
 
 # make socket
-server_socket = socket.socket()
+server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 info = get_socket_info()
 print(info)
 server_socket.bind(info)
